@@ -1,0 +1,15 @@
+Description: A dispersionless and absorptionless mixture material
+Kind: mixture
+Model: constant
+Properties:
+	 0  1.5+0.0j
+	10  1.6+0.0j
+	20  1.7+0.0j
+	30  1.8+0.0j
+	40  1.9+0.0j
+	50  2.0+0.0j
+	60  2.1+0.0j
+	70  2.2+0.0j
+	80  2.3+0.0j
+	90  2.4+0.0j
+End

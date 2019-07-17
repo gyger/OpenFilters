@@ -1,0 +1,85 @@
+Version: 1.1
+Comment:
+	*This project demonstrates the index refinement capabilities and the step method*
+	**
+	*Apply the refine method on the first filter to obtain an optimized 3-layer AR coating for the visible.*
+	**
+	*Apply the step method on the second filter to synthesize an AR coating by the step method.*
+End
+Filter:
+	Description: Starting design for refinement
+	Substrate: FusedSilica 1000000.000000
+	FrontMedium: void
+	BackMedium: void
+	CenterWavelength: 550.000000
+	WavelengthRange: 300.000000 1000.000000 1.000000
+	DontConsiderSubstrate: 0
+	StepSpacing: 0.002500
+	MinimumThickness: 1.000000
+	Illuminant: CIE-D65
+	Observer: CIE-1931
+	ConsiderBackside: 0
+	EllipsometerType: 1
+	DeltaMin: -90.000000
+	ConsiderBacksideOnMonitoring: 1
+	MonitoringEllipsometerType: 1
+	MonitoringDeltaMin: -90.000000
+	MonitoringSublayerThickness: 1.000000
+	FrontLayer: SiO2TiO2 76.388889 1.800000
+	RefineThickness: 1
+	RefineIndex: 1
+	PreserveOT: 0
+	AddNeedles: 0
+	AddSteps: 0
+	FrontLayer: SiO2TiO2 130.952381 2.100000
+	RefineThickness: 1
+	RefineIndex: 1
+	PreserveOT: 0
+	AddNeedles: 0
+	AddSteps: 0
+	FrontLayer: SiO2TiO2 91.666667 1.500000
+	RefineThickness: 1
+	RefineIndex: 1
+	PreserveOT: 0
+	AddNeedles: 0
+	AddSteps: 0
+End
+Filter:
+	Description: Starting design for the step method.
+	Substrate: FusedSilica 1000000.000000
+	FrontMedium: void
+	BackMedium: void
+	CenterWavelength: 550.000000
+	WavelengthRange: 300.000000 1000.000000 1.000000
+	DontConsiderSubstrate: 0
+	StepSpacing: 0.010000
+	MinimumThickness: 0.000000
+	Illuminant: CIE-D65
+	Observer: CIE-1931
+	ConsiderBackside: 0
+	EllipsometerType: 1
+	DeltaMin: -90.000000
+	ConsiderBacksideOnMonitoring: 1
+	MonitoringEllipsometerType: 1
+	MonitoringDeltaMin: -90.000000
+	MonitoringSublayerThickness: 1.000000
+	FrontLayer: SiO2TiO2 150.000000 1.800000
+	RefineThickness: 1
+	RefineIndex: 1
+	PreserveOT: 0
+	AddNeedles: 1
+	AddSteps: 1
+End
+Target:
+	Kind: ReflectionSpectrum
+	Angle: 0.000000
+	Polarization: 0.000000
+	Direction: Normal
+	From: 380.000000
+	To: 780.000000
+	By: 5.000000
+	Points:
+		380.000000    0.000000    0.010000
+		780.000000    0.000000    0.010000
+	End
+End

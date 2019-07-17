@@ -1,0 +1,90 @@
+Description:
+	CIE Illuminant FL3.15
+	Adapted from the file CIE 15 Tables.xls found on the CDROM accompanying the CIE Colorimetry 3rd Edition Technical Report (CIE 15:2004)
+	The technical report and the complete CDROM may be obtained from the CIE Central Bureau (Kegelgasse 27, A-1030 Vienna, www.cie.co.at)
+	Table T.6. Relative spectral power distributions of illuminants representing typical fluorescent lamps, for wavelengths lambda = 380 nm to 780 nm at 5 nm intervals
+	Table T.6.2. New set of fluorescent lamps.
+End
+Spectrum:
+	380	300.0
+	385	286.0
+	390	268.0
+	395	244.0
+	400	304.0
+	405	581.0
+	410	225.0
+	415	155.0
+	420	152.0
+	425	170.0
+	430	295.0
+	435	1417.0
+	440	607.0
+	445	343.0
+	450	386.0
+	455	430.0
+	460	469.0
+	465	502.0
+	470	531.0
+	475	552.0
+	480	567.0
+	485	572.0
+	490	575.0
+	495	561.0
+	500	548.0
+	505	527.0
+	510	507.0
+	515	482.0
+	520	461.0
+	525	438.0
+	530	418.0
+	535	404.0
+	540	429.0
+	545	1016.0
+	550	581.0
+	555	370.0
+	560	368.0
+	565	371.0
+	570	377.0
+	575	490.0
+	580	525.0
+	585	402.0
+	590	404.0
+	595	412.0
+	600	418.0
+	605	425.0
+	610	428.0
+	615	432.0
+	620	433.0
+	625	431.0
+	630	427.0
+	635	420.0
+	640	410.0
+	645	399.0
+	650	385.0
+	655	370.0
+	660	352.0
+	665	336.0
+	670	317.0
+	675	298.0
+	680	277.0
+	685	260.0
+	690	242.0
+	695	223.0
+	700	202.0
+	705	187.0
+	710	167.0
+	715	152.0
+	720	136.0
+	725	125.0
+	730	113.0
+	735	103.0
+	740	93.0
+	745	84.0
+	750	75.0
+	755	66.0
+	760	58.0
+	765	51.0
+	770	46.0
+	775	41.0
+	780	37.0
+End

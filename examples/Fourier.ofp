@@ -1,0 +1,47 @@
+Version: 1.1
+Comment:
+	*This project demonstrates the possibility to design a graded-index filter using the Fourier transform method*
+	**
+	*Apply the Fourier transform method to obtain a filter with the appropriate index profile and than add quintic layers to remove the ripples.*
+End
+Filter:
+	Substrate: FusedSilica 1000000.000000
+	FrontMedium: void
+	BackMedium: void
+	CenterWavelength: 550.000000
+	WavelengthRange: 300.000000 1000.000000 1.000000
+	DontConsiderSubstrate: 0
+	StepSpacing: 0.002500
+	MinimumThickness: 1.000000
+	Illuminant: CIE-D65
+	Observer: CIE-1931
+	ConsiderBackside: 0
+	EllipsometerType: 1
+	DeltaMin: -90.000000
+	ConsiderBacksideOnMonitoring: 0
+	MonitoringEllipsometerType: 1
+	MonitoringDeltaMin: -90.000000
+	MonitoringSublayerThickness: 1.000000
+	FourierParameters: SiO2TiO2 Bovard 25000.0
+End
+Target:
+	Kind: ReflectionSpectrum
+	Angle: 0.000000
+	Polarization: 0.000000
+	Direction: Normal
+	From: 400.000000
+	To: 1000.000000
+	By: 2.000000
+	Points:
+		400.000000    0.000000    0.010000
+		490.000000    0.000000    0.010000
+		500.000000    0.600000    0.010000
+		550.000000    0.800000    0.010000
+		560.000000    0.000000    0.010000
+		790.000000    0.000000    0.010000
+		800.000000    0.800000    0.010000
+		850.000000    0.600000    0.010000
+		860.000000    0.000000    0.010000
+		1000.000000    0.000000    0.010000
+	End
+End

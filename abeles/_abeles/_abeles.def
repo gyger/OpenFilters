@@ -1,0 +1,171 @@
+LIBRARY   _ABELES.DLL
+
+EXPORTS
+	init_abeles
+	
+	new_wvls
+	del_wvls
+	set_wvl
+	set_wvls_by_range
+	
+	new_N
+	del_N
+	N_copy
+	
+	new_N_mixture_constant
+	new_N_mixture_table
+	new_N_mixture_Cauchy
+	del_N_mixture
+	prepare_N_mixture_graded
+	N_mixture_graded_is_prepared
+	set_N_mixture
+	set_N_mixture_by_x
+	set_dN_mixture
+	set_N_mixture_graded
+	get_N_mixture
+	get_dN_mixture
+	get_N_mixture_graded
+	
+	new_constant
+	del_constant
+	set_constant
+	set_N_constant
+	new_table
+	del_table
+	set_table
+	prepare_table
+	get_table_index
+	set_N_table
+	new_Cauchy
+	del_Cauchy
+	set_Cauchy
+	set_N_Cauchy
+	new_Sellmeier
+	del_Sellmeier
+	set_Sellmeier
+	set_N_Sellmeier
+	
+	new_constant_mixture
+	del_constant_mixture
+	set_constant_mixture
+	prepare_constant_mixture
+	get_constant_mixture_monotonicity
+	get_constant_mixture_index
+	get_constant_mixture_index_range
+	change_constant_mixture_index_wvl
+	set_N_constant_mixture
+	set_N_constant_mixture_by_x
+	set_dN_constant_mixture
+	new_table_mixture
+	del_table_mixture
+	set_table_mixture
+	prepare_table_mixture
+	get_table_mixture_monotonicity
+	get_table_mixture_index
+	get_table_mixture_index_range
+	change_table_mixture_index_wvl
+	set_N_table_mixture
+	set_N_table_mixture_by_x
+	set_dN_table_mixture
+	new_Cauchy_mixture
+	del_Cauchy_mixture
+	set_Cauchy_mixture
+	prepare_Cauchy_mixture
+	get_Cauchy_mixture_monotonicity
+	get_Cauchy_mixture_index
+	get_Cauchy_mixture_index_range
+	change_Cauchy_mixture_index_wvl
+	set_N_Cauchy_mixture
+	set_N_Cauchy_mixture_by_x
+	set_dN_Cauchy_mixture
+	new_Sellmeier_mixture
+	del_Sellmeier_mixture
+	set_Sellmeier_mixture
+	prepare_Sellmeier_mixture
+	get_Sellmeier_mixture_monotonicity
+	get_Sellmeier_mixture_index
+	get_Sellmeier_mixture_index_range
+	change_Sellmeier_mixture_index_wvl
+	set_N_Sellmeier_mixture
+	set_N_Sellmeier_mixture_by_x
+	set_dN_Sellmeier_mixture
+	
+	new_sin2
+	del_sin2
+	set_sin2_theta_0
+	
+	new_matrices
+	del_matrices
+	copy_matrices
+	set_matrices_unity
+	set_matrices
+	multiply_matrices
+	
+	new_r_and_t
+	del_r_and_t
+	calculate_r_and_t
+	calculate_r_and_t_reverse
+
+	new_spectrum
+	del_spectrum
+	calculate_R
+	calculate_R_with_backside
+	calculate_T
+	calculate_T_with_backside
+	calculate_A
+	
+	calculate_r_phase
+	calculate_t_phase
+	calculate_GD
+	calculate_GDD
+
+	new_Psi_and_Delta
+	del_Psi_and_Delta
+	calculate_Psi_and_Delta
+	calculate_Psi_and_Delta_with_backside
+	
+	new_admittance
+	del_admittance
+	calculate_admittance
+	
+	new_circle
+	del_circle
+	calculate_circle
+	
+	calculate_electric_field
+
+	new_monitoring_matrices
+	del_monitoring_matrices
+	set_monitoring_matrices
+	multiply_monitoring_matrices
+	multiply_monitoring_matrices_cumulative
+	get_slice_matrices
+
+	new_pre_and_post_matrices
+	del_pre_and_post_matrices
+	new_psi_matrices
+	del_psi_matrices
+	set_pre_and_post_matrices
+	multiply_pre_and_post_matrices
+	get_global_matrices
+	get_layer_matrices
+	set_dMi_thickness
+	set_dMi_index
+	calculate_dM
+	calculate_psi_matrices
+	calculate_psi_matrices_reverse
+	calculate_dr_and_dt
+	calculate_dr_and_dt_reverse
+	calculate_dR
+	calculate_dT
+	calculate_dA
+	calculate_dR_with_backside
+	calculate_dT_with_backside
+
+	new_needle_matrices
+	del_needle_matrices
+	set_needle_position
+	set_needle_positions
+	get_one_needle_matrices
+	calculate_dMi_needles
+	calculate_dMi_steps

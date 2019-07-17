@@ -1,0 +1,29 @@
+LIBRARY     _MOREMATH.DLL
+
+EXPORTS
+	init_moremath
+	
+	new_spline
+	del_spline
+	init_spline
+	evaluate_spline
+	evaluate_spline_derivative
+	evaluate_spline_inverse
+	locate
+	
+	Newton_linear
+	Newton_quadratic
+	Newton_cubic
+	
+	QR
+	QTb
+	Qb
+	R_solve
+	RT_solve
+	rank_deficient_R_solve
+	QR_solve
+	R_solve_with_update
+	
+	roots_linear
+	roots_quadratic
+	roots_cubic

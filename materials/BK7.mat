@@ -1,0 +1,4 @@
+Description: BK7 (from http://en.wikipedia.org/wiki/Sellmeier_equation, consulted January 3 2012)
+Kind: regular
+Model: Sellmeier
+Properties: 1.03961212 6.00069867e-3 0.231792344 2.00179144e-2 1.01046945 1.03560653e2

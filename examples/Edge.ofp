@@ -1,0 +1,107 @@
+Version: 1.1
+Comment:
+	*This project demonstrates the refinement method*
+	**
+	*Apply the refinement method to obtain a edge filter.*
+End
+Filter:
+	Description: Starting design
+	Substrate: FusedSilica 1000000.000000
+	FrontMedium: void
+	BackMedium: void
+	CenterWavelength: 550.000000
+	WavelengthRange: 300.000000 1000.000000 1.000000
+	DontConsiderSubstrate: 0
+	StepSpacing: 0.002500
+	MinimumThickness: 1.000000
+	Illuminant: CIE-D65
+	Observer: CIE-1931
+	ConsiderBackside: 0
+	EllipsometerType: 1
+	DeltaMin: -90.000000
+	ConsiderBacksideOnMonitoring: 0
+	MonitoringEllipsometerType: 1
+	MonitoringDeltaMin: -90.000000
+	MonitoringSublayerThickness: 1.000000
+	FrontStackFormula:
+		Formula: (HL)^8 H
+		H: TiO2
+		L: SiO2
+	End
+	FrontLayer: TiO2 58.611016
+	RefineThickness: 1
+	AddNeedles: 1
+	FrontLayer: SiO2 92.613024
+	RefineThickness: 1
+	AddNeedles: 1
+	FrontLayer: TiO2 58.611016
+	RefineThickness: 1
+	AddNeedles: 1
+	FrontLayer: SiO2 92.613024
+	RefineThickness: 1
+	AddNeedles: 1
+	FrontLayer: TiO2 58.611016
+	RefineThickness: 1
+	AddNeedles: 1
+	FrontLayer: SiO2 92.613024
+	RefineThickness: 1
+	AddNeedles: 1
+	FrontLayer: TiO2 58.611016
+	RefineThickness: 1
+	AddNeedles: 1
+	FrontLayer: SiO2 92.613024
+	RefineThickness: 1
+	AddNeedles: 1
+	FrontLayer: TiO2 58.611016
+	RefineThickness: 1
+	AddNeedles: 1
+	FrontLayer: SiO2 92.613024
+	RefineThickness: 1
+	AddNeedles: 1
+	FrontLayer: TiO2 58.611016
+	RefineThickness: 1
+	AddNeedles: 1
+	FrontLayer: SiO2 92.613024
+	RefineThickness: 1
+	AddNeedles: 1
+	FrontLayer: TiO2 58.611016
+	RefineThickness: 1
+	AddNeedles: 1
+	FrontLayer: SiO2 92.613024
+	RefineThickness: 1
+	AddNeedles: 1
+	FrontLayer: TiO2 58.611016
+	RefineThickness: 1
+	AddNeedles: 1
+	FrontLayer: SiO2 92.613024
+	RefineThickness: 1
+	AddNeedles: 1
+	FrontLayer: TiO2 58.611016
+	RefineThickness: 1
+	AddNeedles: 1
+End
+Target:
+	Kind: ReflectionSpectrum
+	Angle: 0.000000
+	Polarization: 0.000000
+	Direction: Normal
+	From: 500.000000
+	To: 600.000000
+	By: 5.000000
+	Points:
+		500.000000    1.000000    0.010000
+		600.000000    1.000000    0.010000
+	End
+End
+Target:
+	Kind: TransmissionSpectrum
+	Angle: 0.000000
+	Polarization: 0.000000
+	From: 650.000000
+	To: 1000.000000
+	By: 5.000000
+	Points:
+		650.000000    1.000000    0.010000
+		1000.000000    1.000000    0.010000
+	End
+End

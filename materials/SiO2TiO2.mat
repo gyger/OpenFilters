@@ -1,0 +1,11 @@
+Description: SiO2/TiO2 mixtures deposited by PECVD caracterized at the FCSEL using ellipsometry and transmission
+Kind: mixture
+Model: Cauchy
+Properties:
+	0   1.4598 0.0075239  0.0       0.0       7.2334 3500
+	25  1.5722 -0.0033129 0.0020644 0.0       7.2334 3500
+	50  1.7678 0.0067224  0.0029301 0.013889  7.2334 3500
+	75  1.9475 0.010044   0.0046517 0.0061015 8.2956 3750
+	100 2.0681 0.014277   0.0064263 0.012958  7.6302 3800
+	125 2.1959 0.025614   0.0059846 0.0025745 8.5080 4000
+end

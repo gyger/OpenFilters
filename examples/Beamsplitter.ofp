@@ -1,0 +1,56 @@
+Version: 1.1
+Comment:
+	*This project demonstrates the possibility to use inequalities in the design process*
+	**
+	*Apply the needle method to synthesize a 50/50 beamsplitter for the whole visible.*
+End
+Filter:
+	Description: Starting design
+	Substrate: FusedSilica 1000000.000000
+	FrontMedium: void
+	BackMedium: void
+	CenterWavelength: 550.000000
+	WavelengthRange: 300.000000 1000.000000 1.000000
+	DontConsiderSubstrate: 0
+	StepSpacing: 0.010000
+	MinimumThickness: 0.000000
+	Illuminant: CIE-D65
+	Observer: CIE-1931
+	ConsiderBackside: 1
+	EllipsometerType: 1
+	DeltaMin: -90.000000
+	ConsiderBacksideOnMonitoring: 1
+	MonitoringEllipsometerType: 1
+	MonitoringDeltaMin: -90.000000
+	MonitoringSublayerThickness: 1.000000
+	NeedleMaterials: H L
+	FrontLayer: H 343.750000
+	RefineThickness: 1
+	AddNeedles: 1
+End
+Target:
+	Kind: TransmissionSpectrum
+	Angle: 0.000000
+	Polarization: 0.000000
+	From: 380.000000
+	To: 780.000000
+	By: 2.500000
+	Points:
+		380.000000    0.501000    0.001000
+		780.000000    0.501000    0.001000
+	End
+	Inequality: smaller
+End
+Target:
+	Kind: TransmissionSpectrum
+	Angle: 0.000000
+	Polarization: 0.000000
+	From: 380.000000
+	To: 780.000000
+	By: 2.500000
+	Points:
+		380.000000    0.499000    0.001000
+		780.000000    0.499000    0.001000
+	End
+	Inequality: larger
+End
